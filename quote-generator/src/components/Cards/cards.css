@@ -1,0 +1,10 @@
+.bg-primary {
+    background-color: #FFA500!important;
+    color: #FFA500;
+}
+
+#card{
+    margin-left: 13%;
+    margin-right: 17%;
+    justify-content: center;
+}
