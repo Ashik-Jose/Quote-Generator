@@ -21,3 +21,14 @@ export const getTags=()=> async(dispatch) =>{
         console.log(error);
     }
 }
+
+export const randomTagQuotes=(tag)=> async(dispatch) =>{
+    try {
+        
+        const {data} =await api.fetchTagQuotes(tag);
+
+        dispatch({type:'FETCH_TAG_QUOTES', payload:data});
+    } catch (error) {
+        console.log(error);
+    }
+}

@@ -1,7 +1,7 @@
 import './Home.css';
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { randomQuotes } from './actions/quotes';
+import { getTags, randomQuotes } from './actions/quotes';
 import Header from './components/Header/header.js';
 import DropDown from './components/DropDown/dropdown';
 import Button from 'react-bootstrap/Button';
@@ -12,10 +12,11 @@ import Cards from './components/Cards/cards';
 
 function Home() {
 
-    const dispatch = useDispatch();
+     const dispatch = useDispatch();
 
     useEffect(() => {
         dispatch(randomQuotes());
+        dispatch(getTags());
     }, [dispatch])
 
 
