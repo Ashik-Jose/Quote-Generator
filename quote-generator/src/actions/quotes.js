@@ -32,3 +32,14 @@ export const randomTagQuotes=(tag)=> async(dispatch) =>{
         console.log(error);
     }
 }
+
+// export const getBookmarks=(bookmarks)=> (dispatch) =>{
+//     try {
+        
+//         const {data} = bookmarks;
+
+//         dispatch({type:'BOOKMARKS', payload:data});
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }

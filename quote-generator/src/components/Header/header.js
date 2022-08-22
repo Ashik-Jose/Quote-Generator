@@ -11,7 +11,7 @@ const Header=() => {
       <Link to='/' className='navbar-brand'>Home</Link>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
-      <Navbar.Brand href="#home">Bookmarks</Navbar.Brand>
+      <Link to='/bookmarks' className='navbar-brand'>Bookmarks</Link>
       </Navbar.Collapse>
     </Container>
   </Navbar>
