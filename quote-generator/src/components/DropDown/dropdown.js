@@ -17,9 +17,9 @@ const DropDown = () => {
     }
 
     return (
-        <div class='p-5 w-50' id='DropDown' onChange={handleChange}>
+        <div class='p-5 mt-3 w-50' id='DropDown' onChange={handleChange}>
 
-            <Form.Select size='lg'>
+            <Form.Select className='rounded-pill' size='lg'>
                 {
                     tags.map((tag) => (
                         <option value={tag.name}>{tag.name}</option>

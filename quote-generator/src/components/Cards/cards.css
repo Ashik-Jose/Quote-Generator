@@ -1,10 +1,17 @@
 .bg-primary {
-    background-color: #FFA500!important;
-    color: #FFA500;
+    background-color: rgb(208,83,83)!important;
 }
 
 #card{
     margin-left: 13%;
     margin-right: 17%;
+    background-color: rgb(208,83,83);
+    justify-content: center;
+    border-radius: 15px;
+}
+
+#footer{
+    display: flex;
     justify-content: center;
 }
+

@@ -8,8 +8,6 @@ import Button from 'react-bootstrap/Button';
 import Cards from './components/Cards/cards';
 
 
-
-
 function Home() {
 
      const dispatch = useDispatch();
@@ -27,7 +25,7 @@ function Home() {
             <div class="text-center">
                 <Cards />
                 <DropDown />
-                <Button onClick={() => dispatch(randomQuotes())}><h3>Next Quote</h3></Button>
+                <Button className='rounded-pill' id="button" size="lg" onClick={() => dispatch(randomQuotes())}><h4>Next Quote</h4></Button>
             </div>
         </>
     );
