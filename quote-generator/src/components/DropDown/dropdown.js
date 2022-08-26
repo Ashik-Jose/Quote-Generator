@@ -1,5 +1,5 @@
 import Form from 'react-bootstrap/Form';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './dropdown.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { getTags, randomTagQuotes } from '../../actions/quotes';
